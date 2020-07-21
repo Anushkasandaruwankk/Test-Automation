@@ -12,6 +12,7 @@ public class TestAutomation {
 
     @Test
     public void varifyEail(){
+        System.setProperty("webdriver.gecko.driver", "F:\\Test Automation\\geckodriver.exe");
         
     }
 }
