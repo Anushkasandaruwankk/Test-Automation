@@ -16,6 +16,7 @@ public class TestAutomation {
         WebDriver browser = new FirefoxDriver();
         browser.get("https://www.google.com");
         WebElement element = browser.findElement(By.name("q"));
+        element.sendKeys("GMAIL");
         
     }
 }
