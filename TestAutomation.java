@@ -18,6 +18,7 @@ public class TestAutomation {
         WebElement element = browser.findElement(By.name("q"));
         element.sendKeys("GMAIL");
         element.submit();
+        WebDriverWait wait1 = new WebDriverWait(browser, 10);
         
     }
 }
