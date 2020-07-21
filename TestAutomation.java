@@ -25,6 +25,7 @@ public class TestAutomation {
         username.sendKeys("2017cs155@stu.ucsc.cmb.ac.lk");
 
         browser.findElement(By.xpath("//div[@id='identifierNext']")).click();
+        WebDriverWait wait = new WebDriverWait(browser, 10);
         
     }
 }
