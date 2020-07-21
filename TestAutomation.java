@@ -17,6 +17,7 @@ public class TestAutomation {
         browser.get("https://www.google.com");
         WebElement element = browser.findElement(By.name("q"));
         element.sendKeys("GMAIL");
+        element.submit();
         
     }
 }
