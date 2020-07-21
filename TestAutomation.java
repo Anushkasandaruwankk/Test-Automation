@@ -11,5 +11,7 @@ import org.testng.annotations.Test;
 public class TestAutomation {
 
     @Test
-    
+    public void varifyEail(){
+        
+    }
 }
