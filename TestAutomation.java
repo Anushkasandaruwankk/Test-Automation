@@ -14,6 +14,6 @@ public class TestAutomation {
     public void varifyEail(){
         System.setProperty("webdriver.gecko.driver", "F:\\Test Automation\\geckodriver.exe");
         WebDriver browser = new FirefoxDriver();
-        
+        browser.get("https://www.google.com");
     }
 }
