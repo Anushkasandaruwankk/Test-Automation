@@ -22,6 +22,6 @@ public class TestAutomation {
         wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='E-mail - Sign in - Google Accounts']")));
         browser.findElement(By.xpath("//h3[text()='E-mail - Sign in - Google Accounts']")).click();
         WebElement username = browser.findElement(By.id("identifierId"));
-        
+        username.sendKeys("2017cs155@stu.ucsc.cmb.ac.lk");
     }
 }
