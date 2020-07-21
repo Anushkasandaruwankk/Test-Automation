@@ -19,6 +19,7 @@ public class TestAutomation {
         element.sendKeys("GMAIL");
         element.submit();
         WebDriverWait wait1 = new WebDriverWait(browser, 10);
+        wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='E-mail - Sign in - Google Accounts']")));
         
     }
 }
