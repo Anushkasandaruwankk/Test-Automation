@@ -28,6 +28,7 @@ public class TestAutomation {
         WebDriverWait wait = new WebDriverWait(browser, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[type=password]")));
 
-        
+        browser.findElement(By.cssSelector("input[type=password]")).sendKeys("********"); //type your email password in "********" area
+	    browser.findElement(By.cssSelector("#passwordNext")).click();
     }
 }
