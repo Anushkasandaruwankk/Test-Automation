@@ -26,6 +26,8 @@ public class TestAutomation {
 
         browser.findElement(By.xpath("//div[@id='identifierNext']")).click();
         WebDriverWait wait = new WebDriverWait(browser, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[type=password]")));
+
         
     }
 }
